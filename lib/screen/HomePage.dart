@@ -91,6 +91,8 @@ class _HomePageState extends State<HomePage> {
     setState(() {});
   }
 
+//1. first I'm storing the fetched list data in a map where, key: 'level' and value: List of 'name'
+//2. then making a list of maps{String, String} where, key:'level' and value: 'name'
   void organizeList(List<dynamic> player) {
     Map<String, List<String>> map = {
       'Basic': [],
